@@ -1,0 +1,24 @@
+body {
+    background-image: url('/assets/neom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.full-screen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
+  }
+h1{
+    color: white;
+}
+.moja{
+    padding-left: 37.5%;
+    color: rgb(39, 224, 39);
+}
